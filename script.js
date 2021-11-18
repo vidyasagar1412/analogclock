@@ -36,7 +36,7 @@ function setTime(){
     hourEl.style.transform=`translate(-50%,-100%) 
     rotate(${scale(hoursForClock,0,11,0,359)}deg)`
 
-    minuteEl.style.transform=`translate(-50%',-100%)
+    minuteEl.style.transform=`translate(-50%,-100%)
     rotate(${scale(minutes,0,59,0,359)}deg)`
 
     secondEl.style.transform=`translate(-50%,-100%)
